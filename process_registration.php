@@ -14,10 +14,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Pripojení k databázi
-    $db_host="sql6.webzdarma.cz";
-    $db_user="smolkapetrcz8641";
-    $db_password=".(.rMvOyY0Zw#i$(_(I@";
-    $db_name="smolkapetrcz8641";
+    $db_host="";
+    $db_user="";
+    $db_password="";
+    $db_name="";
     $connection = mysqli_connect($db_host,$db_user,$db_password,$db_name);
     if(mysqli_connect_error()){
         echo mysqli_connect_error();
